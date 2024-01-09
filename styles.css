@@ -1,0 +1,51 @@
+body {
+    background-color: aliceblue;
+}
+
+
+#canvas {
+
+    position: relative;
+    margin: 15px;
+    min-width: 600px;
+    min-height: 600px;
+    background-color: #C9E9F0;
+    box-shadow: -4px 5px 8px -3px #000000
+}
+
+#inputs {
+
+
+    background-color: rgb(253, 233, 236);
+    height: 600px;
+    width: 400px;
+    box-shadow: -4px 5px 8px -3px #000000;
+    margin: 15px;
+
+
+}
+
+.shape {
+    position: absolute;
+    opacity: 80%;
+}
+
+#square {
+    background-color: red;
+}
+
+#circle {
+    background-color: purple;
+    border-radius: 50%;
+}
+
+#rectangle {
+    background-color: green;
+  }
+
+  .btn {
+
+    box-shadow: -4px 5px 8px -3px #000000;
+  }
+
+  
