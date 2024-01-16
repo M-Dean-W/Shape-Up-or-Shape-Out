@@ -52,6 +52,7 @@ class Square extends Shape {
         this.div.click(() => this.getArea());
         this.div.click(() => this.getPerimeter());
         this.div.click(() => $('#output-shape').val('Square'));
+        this.div.click(() => $('#output-radius').val(''));
     }
     getArea() {
         let area = this.sideLength * this.sideLength;
@@ -72,6 +73,7 @@ class Rectangle extends Shape {
         this.div.click(() => this.getArea());
         this.div.click(() => this.getPerimeter());
         this.div.click(() => $('#output-shape').val('Rectangle'));
+        this.div.click(() => $('#output-radius').val(''));
     }
 }
 
@@ -105,6 +107,7 @@ class Triangle extends Shape {
         this.div.click(() => this.getArea());
         this.div.click(() => this.getPerimeter());
         this.div.click(() => $('#output-shape').val('Triangle'));
+        this.div.click(() => $('#output-radius').val(''));
     }
     getArea() {
         let area = 0.5 * this.height * this.height;
